@@ -13,8 +13,7 @@ export const {handlers, auth, signIn, signOut} = NextAuth({
     },
     pages: {
         signIn: "/login"
-    }
-    ,
+    },
     callbacks: {
         async jwt({ token, user }) {
             const devRole = process.env.DEV_ROLE;
