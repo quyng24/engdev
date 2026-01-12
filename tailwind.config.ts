@@ -7,17 +7,14 @@ module.exports = {
   theme: {
     extend: {
       color: {
-        primary: "#35e9da",
-        danger: "#ef4444",
-        warning: "#f59e0b",
-        success: "#22c55e",
-        background: "#f9fafb",
-        surface: "#ffffff",
-        text: "#111827",
-        muted: "#6b7280",
+        background: "rgb(var(--bg))",
+        surface: "rgb(var(--surface))",
+        text: "rgb(var(--text))",
+        muted: "rgb(var(--muted))",
       }
     },
   },
   plugins: [],
+  darkMode: "class"
 }
 
